@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <legend>Contact</legend>
+        <ul>
+            <li>
+                <label for="user_name">Name: </label>
+                <input type="text" id="name" name="name">
+            </li>
+            <li>
+                <label for="user_email">E-mail: </label>
+                <input type="email" id="email" name="email">
+            </li>
+            <li>
+                <label for="user_message">Message: </label>
+                <textarea name="message" id="message">Type your message in this box</textarea>
+            </li>
+        </ul>
+        <button type="submit">Send Your Message</button>
+    </form>
+</body>
+</html>
